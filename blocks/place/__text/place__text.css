@@ -1,0 +1,4 @@
+.place__text {
+  grid-row: span 1;
+  align-self: flex-start;
+}

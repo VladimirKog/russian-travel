@@ -1,0 +1,24 @@
+.photo {
+  padding-top: 92px;
+  max-width: 100%;
+  background-color: #2A2C2F;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  
+.photo {
+  padding-top: 88px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+.photo {
+    padding-top: 64px;
+  }
+  
+  
+
+}

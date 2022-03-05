@@ -1,0 +1,34 @@
+.lead__main-illustration {
+  max-height: 615px;
+  max-width: 100%;
+  padding-top: 64px;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+
+.lead__main-illustration {
+    max-height: 580px;
+    padding-top: 48px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+.lead__main-illustration {
+  max-height: 480px;
+  padding-top: 56px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+.lead__main-illustration {
+    max-height: 200px;
+    padding-top: 40px;
+  }
+
+}
+
+
