@@ -5,7 +5,7 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1029px) {
 
 .lead__main-illustration {
     max-height: 580px;
@@ -13,7 +13,7 @@
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 773px) {
 
 .lead__main-illustration {
   max-height: 480px;
@@ -22,7 +22,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
 
 .lead__main-illustration {
     max-height: 200px;

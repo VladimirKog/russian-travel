@@ -1,25 +1,21 @@
 .footer__columns {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin: auto;
- max-width: 92%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 92%;
 }
 
 @media screen and (max-width: 768px) {
-
-.footer__columns {
+  .footer__columns {
     max-width: 98%;
- }
-
+  }
 }
 
-@media screen and (max-width: 320px) {
-
-.footer__columns {
+@media screen and (max-width: 325px) {
+  .footer__columns {
     flex-direction: column;
     max-width: 100%;
     padding-left: 16px;
-}
-
+  }
 }

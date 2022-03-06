@@ -7,21 +7,22 @@
   letter-spacing: 0em;
   text-align: center;
   margin: 0 auto;
+  transition: 0.5s ease-in;
 }
 
-@media screen and (max-width: 1024px) {
-    
-.cover__title {
-  max-width: 100%;
-}  
-
+.cover__title:hover {
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1029px) {
+  .cover__title {
+    max-width: 100%;
+  }
+}
 
-.cover__title {
+@media screen and (max-width: 325px) {
+  .cover__title {
     font-size: 32px;
     line-height: 35px;
   }
-
 }

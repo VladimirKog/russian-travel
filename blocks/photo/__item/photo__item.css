@@ -3,10 +3,8 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 768px) {
-  
-.place__item {
-  padding: 0 24px 0 24px;
-}
-
+@media screen and (max-width: 773px) {
+  .place__item {
+    padding: 0 24px 0 24px;
+  }
 }

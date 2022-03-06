@@ -1,5 +1,5 @@
 .cover__background {
-  background: url('../../../images/cover-trains.jpg');
+  background: url("../../../images/cover-trains.jpg");
   min-height: 740px;
   max-width: 92%;
   background-position: center;
@@ -24,23 +24,19 @@
 }
 
 @media screen and (max-width: 768px) {
-
-.cover__background {
-  min-height: 480px;
-}
-   
+  .cover__background {
+    min-height: 480px;
+  }
 }
 
-@media screen and (max-width: 320px) {
-
-.cover__background:after {
+@media screen and (max-width: 325px) {
+  .cover__background:after {
     width: 100%;
     left: 0;
- }
+  }
 
-.cover__background {
+  .cover__background {
     min-height: 200px;
-    max-width: 320px;   
-}
-
+    max-width: 320px;
+  }
 }

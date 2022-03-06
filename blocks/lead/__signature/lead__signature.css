@@ -8,25 +8,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-.lead__signature {
+  .lead__signature {
     margin: 0 0 0 48px;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-
-.lead__signature {
-  margin: 0 0 0 24px;
+  .lead__signature {
+    margin: 0 0 0 24px;
+  }
 }
 
-}
-
-@media screen and (max-width: 320px) {
-
-.lead__signature {
+@media screen and (max-width: 325px) {
+  .lead__signature {
     margin: 0 0 0 16px;
   }
-
 }

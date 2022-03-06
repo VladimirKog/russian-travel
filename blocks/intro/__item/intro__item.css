@@ -5,27 +5,32 @@
   margin-left: 148px;
 }
 
-@media screen and (max-width: 1024px) {
-    
-.intro__item {
+@media screen and (max-width: 1200px) {
+  .intro__item {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .intro__item {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .intro__item {
     margin-left: 48px;
   }
-
 }
 
-@media screen and (max-width: 768px) {
-  
-.intro__item {
+@media screen and (max-width: 773px) {
+  .intro__item {
     margin-left: 24px;
+  }
 }
 
-}
-
-@media screen and (max-width: 320px) {
-
-  
+@media screen and (max-width: 325px) {
   .intro__item {
     margin-left: 12px;
   }
-
 }

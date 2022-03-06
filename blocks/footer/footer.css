@@ -1,16 +1,14 @@
 .footer {
   margin: auto;
-  background-color: #2A2C2F;
+  background-color: #2a2c2f;
   color: #fff;
   max-width: 100%;
   padding-top: 92px;
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 320px) {
-
-.footer {
+@media screen and (max-width: 325px) {
+  .footer {
     padding-top: 64px;
   }
-
 }

@@ -1,4 +1,4 @@
-.header__link {
+.header_land-link {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -6,17 +6,18 @@
   letter-spacing: 0em;
   color: #fff;
   text-decoration: none;
+  padding: 0;
+  transition: 0.5s ease-in;
 }
 
-.header__link:hover {
+.header_land-link:hover {
   text-decoration: underline;
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-
-.header__link {
+@media screen and (max-width: 325px) {
+  .header_land-link {
     font-size: 18px;
     line-height: 20px;
   }
-
 }

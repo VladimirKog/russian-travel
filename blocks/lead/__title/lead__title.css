@@ -10,22 +10,29 @@
   max-width: 60%;
 }
 
-@media screen and (max-width: 768px) {
-
-.lead__title {
-  padding-top: 128px;
-  max-width: 100%;
+@media screen and (max-width: 1120px) {
+  .lead__title {
+    max-width: 70%;
+  }
 }
 
+@media screen and (max-width: 1029px) {
+  .lead__title {
+    max-width: 80%;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
+  .lead__title {
+    padding-top: 128px;
+    max-width: 100%;
+  }
+}
 
- .lead__title {
+@media screen and (max-width: 325px) {
+  .lead__title {
     font-size: 40px;
     line-height: 44px;
     padding-top: 48px;
-    
-  } 
-
+  }
 }
