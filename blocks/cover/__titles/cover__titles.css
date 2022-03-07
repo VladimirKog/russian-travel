@@ -24,6 +24,16 @@
   }
 }
 
+@media screen and (max-width: 380px) {
+  .cover__titles {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    transform: translate(-13%, -50%);
+  }
+}
+
+
 @media screen and (max-width: 325px) {
   .cover__titles {
     position: absolute;
